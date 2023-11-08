@@ -25,7 +25,7 @@ var x = setInterval(function() {
   //If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "SIMHUB ha partecipato alla <a href="https://lanottedeiricercatori.unipr.it/eventi/scenari-virtuali-e-giochi-interattivi-su-rischio-infettivo-e-servizi-d-emergenza/750/">Notte dei Ricercatori 2023</a>";
+    document.getElementById("countdown").innerHTML = "SIMHUB partecipa alla Notte dei Ricercatori 2023";
   }
 }, 1000);
 
